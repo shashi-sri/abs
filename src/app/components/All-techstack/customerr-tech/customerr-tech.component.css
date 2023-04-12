@@ -1,0 +1,47 @@
+.tech{
+    background-color:#eefefe;
+    width:100%;
+    height:100%;
+    margin-top: 30px;
+    
+  
+    
+  }
+  .tech h1{
+    margin-left: 35%;
+    font-family: sans-serif;
+    color:#222222;
+    font-style: italic;
+    
+    
+  }
+  .line{
+    margin-left:35%;
+    margin-top: 50px;
+    font-size: x-large;
+    /* color:#00008b; */
+    color:#0E8388;
+    font-style: italic;
+  }
+
+
+  .lineUp {
+    animation: 3s anim-lineUp ease-out ;
+  }
+  @keyframes anim-lineUp {
+    0% {
+      opacity: 0;
+      transform: translateY(80%);
+    }
+    20% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }

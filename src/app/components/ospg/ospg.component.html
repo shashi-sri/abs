@@ -1,6 +1,12 @@
-<hr />
+
 <div class="catalog">
-  <h1>OSPG</h1>
+  <div class="waviy">
+    <span style="--i:1">O</span>
+    <span style="--i:2">s</span>
+    <span style="--i:3">p</span>
+    <span style="--i:4">g</span>
+   </div>
+  <!-- <h1>OSPG</h1> -->
   <!-- <mat-card>
     <div class="head">
       <h2>More About Catalogue:</h2>
@@ -16,19 +22,16 @@
   >
     <div class="container text-center">
       <p>
-        laborum quia. Ut esse quis non libero doloribus cum veritatis vitae nam
-        ullam facere non suscipit quidem et asperiores sequi. Eum galisum
-        suscipit in cupiditate deleniti ab iusto quaerat a rerum dolorem quo
-        possimus consequatur in galisum doloribus. Cum blanditiis consequuntur a
-        architecto itaque ad laboriosam voluptate? Est saepe rerum ea nemo
-        recusandae et laborum nulla. Id iste nostrum et culpa inventore ea ipsum
-        quia aut expedita placeat aut beatae vero.Cum blanditiis consequuntur a
-        architecto itaque ad laboriosam voluptate? Est saepe rerum ea nemo
-        recusandae et laborum nulla. Id iste nostrum et culpa inventore ea ipsum
-        quia aut expedita placeat aut beatae veroCum blanditiis consequuntur a
-        architecto itaque ad laboriosam voluptate? Est saepe rerum ea nemo
-        recusandae et laborum nulla. Id iste nostrum et culpa inventore ea ipsum
-        quia aut expedita placeat aut beatae vero
+        OSPG services will provide payment services authorize, purchase, refund, void services which will communicate with the vendor JP Morgan's Chase payment gateway for credit card and debit cards, braintree for paypal and acculynk for snap cards.<br><br>
+Below Applications are under Payments:<br><br>
+Cart and Checkout, VPOS , AR , subscription services will invoke below ospg services.<br>
+Tokenization Service: Customers card is tokenized by Chase using tokenization services developed by Payments team<br>
+Tokenvault : Customer's cards are saved in tokenvault and retrieved by client applications using our apis like getTender,paymentMethods, saveTender, updateTender, replaceTender, deleteTender<br>
+Payments: Client applications call apis like auth, purchase, void and refund developed by our team when order is placed/fulfilled/refund and cancellations<br>
+Snap: Government aided EBT Cards have been enabled to use as tender for ECOMM tenders<br>
+Paypal: Enabling paypal as tender type for ECOMM orders<br><br>
+Accumulator and reprocessor services : When OSPG service or Chase service is down clients and ospg service will insert failed transaction in the accumulator DB and later it will re process it.
+ospg payments braintree : This service will invoke braintree apis for paypal payments.
       </p>
     </div>
   </mat-card>

@@ -1,0 +1,24 @@
+.tech{
+    background-color:#eefefe;
+    width:100%;
+    height:80%;
+    margin-top: 30px;
+    
+  
+    
+  }
+  .tech h1{
+    margin-left: 35%;
+    font-family: sans-serif;
+    color:#222222;
+    font-style: italic;
+    
+    
+  }
+  .tech p{
+    margin-left:35%;
+    margin-top: 50px;
+    font-size: x-large;
+    color:#0E8388;
+    font-style: italic;
+  }

@@ -70,6 +70,7 @@ h6 {
 .home {
   overflow: hidden;
   display: flex;
+  /* margin-top: 30px; */
 }
 
 @import url("https://fonts.googleapis.com/css?family=Exo:400,700");

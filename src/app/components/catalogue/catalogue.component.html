@@ -1,6 +1,26 @@
-<hr />
+<!-- cart and checkout  component was named as catalogue-->
+
+
 <div class="catalog">
-  <h1>Cart & Checkout</h1>
+
+  <div class="waviy">
+    <span style="--i:1">C</span>
+    <span style="--i:2">a</span>
+    <span style="--i:3">r</span>
+    <span style="--i:4">t </span>&nbsp;
+    <span style="--i:5" >&</span>&nbsp;
+    <span style="--i:6">C</span>
+    <span style="--i:7">h</span>
+    <span style="--i:8">e</span>
+    <span style="--i:9">c</span>
+    <span style="--i:10">k</span>
+    <span style="--i:11">o</span>
+    <span style="--i:12">u</span>
+    <span style="--i:13">t</span>
+
+ 
+   </div>
+  <!-- <h1>Cart & Checkout</h1> -->
   <!-- <mat-card>
     <div class="head">
       <h2>More About Catalogue:</h2>
@@ -16,19 +36,18 @@
   >
     <div class="container text-center">
       <p>
-        laborum quia. Ut esse quis non libero doloribus cum veritatis vitae nam
-        ullam facere non suscipit quidem et asperiores sequi. Eum galisum
-        suscipit in cupiditate deleniti ab iusto quaerat a rerum dolorem quo
-        possimus consequatur in galisum doloribus. Cum blanditiis consequuntur a
-        architecto itaque ad laboriosam voluptate? Est saepe rerum ea nemo
-        recusandae et laborum nulla. Id iste nostrum et culpa inventore ea ipsum
-        quia aut expedita placeat aut beatae vero.Cum blanditiis consequuntur a
-        architecto itaque ad laboriosam voluptate? Est saepe rerum ea nemo
-        recusandae et laborum nulla. Id iste nostrum et culpa inventore ea ipsum
-        quia aut expedita placeat aut beatae veroCum blanditiis consequuntur a
-        architecto itaque ad laboriosam voluptate? Est saepe rerum ea nemo
-        recusandae et laborum nulla. Id iste nostrum et culpa inventore ea ipsum
-        quia aut expedita placeat aut beatae vero
+        ERUMS means Ecommerce Replatforming Using MicroServices.
+        Earlier cart and checkout was handled by .NET monolithic APIs.To provide a more robust, optimized and Scalable service,
+        the .Net API's was re-platformed to align with latest cloud based technology using java microservices.
+        <br><br>
+        Back End Services:<br><br>
+        1) Cart Services - Create,Add/Update items to the cart [ Supports Albertson cart ,Market Place carts,Wine cart and MTO [ Made to Order ] carts.
+        <br>2) Pricing Service - Service used internally to call EPE[promotion details], catalog details,Tax as well as Repricing.
+       <br> 3) Checkout Service - Service which is used for checkout .Captures user information like Address[UCA] , Slot Info[DPA ] and Payment[OSPG].
+        <br>4) Order Service - Service which is used to place order and support Edit order. Order placed is send to order kafka which is being picked up down stream system for fulfillment.
+        <br>5) Payment Service - Service used to call OSPG services.
+        <br>6) 3p OrderService - A service used to create Replenish order[Subscribe and Save].
+        <br>7) Promotion Services - A service used to handle promotion [ Moved to EPE ,no longer under development].
       </p>
     </div>
   </mat-card>

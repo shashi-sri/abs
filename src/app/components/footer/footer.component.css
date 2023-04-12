@@ -37,9 +37,10 @@ h3 {
 } */
 
 .footer {
-  margin-top: 10px;
-  /* background: #01054a; */
-  background-color: #3a98b9;
+  margin-top: -20px;
+  
+  /* background-color: #3a98b9; */
+  background-color: #01659b;
   color: white;
   /* position: sticky; */
 }
@@ -51,6 +52,7 @@ h3 {
   margin-left: 900px;
   margin-top: -120px;
   color: white;
+  font-size: larger;
 }
 h4 {
   text-decoration: underline;
