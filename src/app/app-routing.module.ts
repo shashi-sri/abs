@@ -56,7 +56,6 @@ import { InventoryAccuracyComponent } from './components/inventory-accuracy/inve
 import { OctxComponent } from './components/octx/octx.component';
 import { OmsComponent } from './components/oms/oms.component';
 import { OspgComponent } from './components/ospg/ospg.component';
-import { PeopleComponent } from './components/people/people.component';
 import { PharmacyComponent } from './components/pharmacy/pharmacy.component';
 import { PricingComponent } from './components/pricing/pricing.component';
 import { ProductIntegratedToolsComponent } from './components/product-integrated-tools/product-integrated-tools.component';
@@ -71,6 +70,7 @@ import { UcaComponent } from './components/uca/uca.component';
 import { UploadComponent } from './components/upload/upload.component';
 import { UppComponent } from './components/upp/upp.component';
 import { VposComponent } from './components/vpos/vpos.component';
+import { PeoplecartComponent } from './components/employee/peoplecart/peoplecart.component';
 const routes: Routes = [
   { path: 'home', component: HomeComponent },
   {
@@ -83,7 +83,6 @@ const routes: Routes = [
   { path: 'Home', component: HomeComponent },
   { path: 'albertsons-main', component: AlbertsonsMainComponent },
   { path: 'catalogue', component: CatalogueComponent },
-  { path: 'people', component: PeopleComponent },
   {path:'acupick',component:AcupickComponent},
   {path:'octx',component:OctxComponent},
   {path:'b4u',component:B4uComponent},
@@ -148,7 +147,8 @@ const routes: Routes = [
   {path:'ddevops-tech',component:DdevopsTechComponent},
   {path:'pit-tech',component:PitTechComponent},
   {path:'rsvipodd1-tech',component:Rsvipodd1TechComponent},
-  {path:'rsvipodd2-tech',component:Rsvipodd2TechComponent}
+  {path:'rsvipodd2-tech',component:Rsvipodd2TechComponent},
+  {path:'peoplecart',component:PeoplecartComponent},
 
  
 ];

@@ -12,7 +12,6 @@ import { FooterComponent } from './components/footer/footer.component';
 import { AlbertsonsMainComponent } from './components/albertsons-main/albertsons-main.component';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { CatalogueComponent } from './components/catalogue/catalogue.component';
-import { PeopleComponent } from './components/people/people.component';
 import { MatCardModule } from '@angular/material/card';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { ReactiveFormsModule } from '@angular/forms';
@@ -88,6 +87,8 @@ import { DdevopsTechComponent } from './components/All-techstack/ddevops-tech/dd
 import { PitTechComponent } from './components/All-techstack/pit-tech/pit-tech.component';
 import { Rsvipodd1TechComponent } from './components/All-techstack/rsvipodd1-tech/rsvipodd1-tech.component';
 import { Rsvipodd2TechComponent } from './components/All-techstack/rsvipodd2-tech/rsvipodd2-tech.component';
+import { PeoplecartComponent } from './components/employee/peoplecart/peoplecart.component';
+
 
 
 
@@ -104,7 +105,7 @@ import { Rsvipodd2TechComponent } from './components/All-techstack/rsvipodd2-tec
     FooterComponent,
     AlbertsonsMainComponent,
     CatalogueComponent,
-    PeopleComponent,
+    
     OctxComponent,
     OspgComponent,
     StoreMobilityComponent,
@@ -170,6 +171,7 @@ import { Rsvipodd2TechComponent } from './components/All-techstack/rsvipodd2-tec
     PitTechComponent,
     Rsvipodd1TechComponent,
     Rsvipodd2TechComponent,
+    PeoplecartComponent,
    
   ],
   imports: [

@@ -36,12 +36,19 @@
     </button> -->
     <div>
       <a
-        href="https://nisum.tovuti.io/"
+        
         target="_blank"
         style="text-decoration: none"
       >
-        <button type="button" class="glow-on-hover">Practice</button></a
+        <button type="button" class="glow-on-hover"  button
+        [matMenuTriggerFor]="belowMenul">Practice</button></a
       >
+      <mat-menu #belowMenul="matMenu" yPosition="below">
+       <a target="_blank" class="linkl" href="https://www.linkedin.com/learning/?u=2111049"><button mat-menu-item>Linkedln</button></a> 
+
+        <a target="_blank" class="linkl" href="https://nisum.tovuti.io/"><button mat-menu-item>Tovuti</button></a>
+        
+      </mat-menu>
     </div>
     <div>
       <a target="_blank" href="https://docs.google.com/spreadsheets/d/1HX2YcE68ftu7HBA7m9HmsPGRZvzP0Xv2E4HcyEgXqKI/edit#gid=935884814">
@@ -54,16 +61,21 @@
     >
       POC
     </button></a>
-    <!-- https://gitlab.mynisum.com/users/sign_in -->
     
-    <!-- https://docs.google.com/spreadsheets/d/1HX2YcE68ftu7HBA7m9HmsPGRZvzP0Xv2E4HcyEgXqKI/edit#gid=935884814 -->
   </div>
   
 
 
+  <div>
+    <a target="_blank" href="">
+  <button
+    type="button" class="glow-on-hover" 
+     style="width:120px">Success Stories
+  </button></a>
 
+</div>
 
-  <button class="glow-on-hover" type="button">Success &nbsp;Stories</button>
+ 
  
 
 
